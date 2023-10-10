@@ -1,0 +1,226 @@
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	
+	background-color: #4977da;
+	background-size: cover;
+	background-position: -800px 0;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.navbar{
+	position: fixed;
+	font-family: 'Trebuchet MS', sans-serif;
+	display: flex;
+	justify-content: flex-end;
+	top: 0;
+	left: 0;
+	padding: 20px 50px 10px 0;
+	z-index: 10;
+	height: 30px;
+	width: 100%;	
+	background: rgba(36,37,42,0.9);
+}
+
+.navbar-links{
+	padding-bottom: 70px;
+}
+.navbar-links a{
+	position: relative;
+    padding-right: 10px;
+    color:white;
+    text-decoration: none;
+  	float: right;
+    margin-right:35px;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: 0.9s;
+    border: 2px solid #fff;
+    border-left: 5px;
+    border-top:12px;
+    padding-left: 10px;
+}
+.navbar-links a:hover{
+	background: rgba(255, 255, 255, 0.9);
+	color: black;
+}
+
+
+.bounce ul{
+	display: flex;
+	top:200px;
+}
+.bounce ul li{
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	float:left;
+	list-style: none;
+	margin: 0 7px;
+	border-radius: 50%;
+	animation: bouncy 1.5s linear infinite;
+}
+
+ul li:nth-child(1){
+	animation-delay: 0.2s;
+	background-color: #90EE90;
+}
+ul li:nth-child(2){
+	animation-delay: 0.4s;
+	background-color: #D2691E;
+}
+ul li:nth-child(3){
+	animation-delay: 0.6s;
+	background-color: #ff7675;
+}
+ul li:nth-child(4){
+	animation-delay: 0.8s;
+	background-color: #008B8B;
+}
+
+@keyframes bouncy{
+	0%{ transform: translateY(0px); }
+	50%{ transform: translateY(-120px); }
+	100%{ transform: translateY(0px); }
+}
+
+
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding-top: 200px;
+	padding-left: 90px;
+	align-content: center;
+}
+
+.grid-item2 img{
+	height: 500px;
+	width: 400px;
+	border-radius: 50px;
+    margin:20px;
+    padding:3px;
+    float:left;
+}
+
+
+.grid-item1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #F2AA4CFF;
+
+}
+.grid-item1 span{
+	color: #FFFAF0;
+	font-size: 70px;
+	font-family: ''Trebuchet MS'', sans-serif;
+}
+.dot{
+	color: red;
+	size: 45px;
+}
+.heading{
+	margin-top: 10rem;
+	font-size: 80px;
+}
+
+.container{
+	padding-left: 30px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: white;
+	font-size: 25px;
+}
+.edu-info, .skill-info, .work-info, .project-desc{
+	padding-left: 30px;
+	font-family: 'Bree Serif', serif;
+	font-size: 20px;
+}
+.work-info a{
+	text-decoration: none;
+	color: red;
+}
+.work-info a:hover{
+	border-radius: 3px;
+	background-color: black;
+	color: white;
+	transition: 0.7s;
+}
+.project-info{
+	display: flex;
+}
+.project-info img{
+	padding-left: 25px;
+	width: 300px;
+	height: 400px;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+.project-info p{
+	color: white;
+	font-size: 20px;
+}
+
+.fas{
+	color: #fffaf0;
+	font-size: 19px;
+	
+}
+.fab{
+	color: #fffaf0;
+	font-size: 30px;
+	
+	
+}
+.contact h2{
+	display: inline-block;
+}
+.contact span{
+	color: red;
+}
+.contact .far{
+	color: #F2AA4CFF;
+	font-size: 40px;
+}	
+.footer{
+	position: relative;
+	width: 100%;
+	color: black;
+	background-color: #fffaf0;
+	margin-top: 30px;
+	bottom: 0px;
+	padding: 0.5rem 0;
+}
+.footer p{
+	text-align: center;
+	font-family: 'Trebuchet MS', sans-serif;
+	margin: 0 auto;
+}
+
+.contact a{
+	margin: 0 7px;
+}
+
+.contact a:hover{
+	border-bottom: 2px solid white;
+}
+.footer .fas, .far{
+	color: black;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
